@@ -1,5 +1,9 @@
 ### Hi there 👋
-
+- ⚡ I'm an undergraduate of Engineering faculty University of Moratuwa
+- 🔭 I’m currently working on both frontend and backend of web development projects.
+- 🌱 I’m currently trying to master angular, react , spring boot and express js frameworks.
+- 📫 email : thiwankar2003@gmail.com
+- 😄 Pronouns: Male
 <!--
 **ThiwankaReiss/ThiwankaReiss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
