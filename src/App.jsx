@@ -26,7 +26,7 @@ const coreProjectsData = [
       'Embedded CAN Bus Data Logger, CAN Gateway Filter, and Compact Logger Development',
     summary:
       'Developed logger and gateway architectures for reliable CAN acquisition, filtering, and compact embedded deployment.',
-      image: '/SmallCircuit2.jpeg',
+      image: '/ThiwankaReiss/SmallCircuit2.jpeg',
     links: [
       {
         label: 'Code',
