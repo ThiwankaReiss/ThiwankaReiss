@@ -7,7 +7,7 @@ Engineering Undergraduate at the University of Moratuwa focused on embedded syst
 
 ## About Me
 <p align="left">
-  <img src="img/Img1.jpeg" alt="Thiwanka Reiss Professional Photo" width="280" />
+  <img src="img/WhatsApp Image 2026-07-10 at 15.24.30.jpeg" alt="Thiwanka Reiss Professional Photo" height="320" />
 </p>
 
 ## Core Portfolio Projects
@@ -24,35 +24,42 @@ Engineering Undergraduate at the University of Moratuwa focused on embedded syst
 [CAN Logger Repository](https://github.com/ThiwankaReiss/Can_logger.git)
 
 <p>
-  <img src="img/SmallCircuit2.jpeg" alt="CAN Logger ISP and SPI hardware prototype" width="420" />
+  <img src="img/SmallCircuit2.jpeg" alt="CAN Logger ISP and SPI hardware prototype" height="320" />
 </p>
 
 ### Diyakawa Electrical Schematic
 [Diyakawa Repository](https://github.com/ThiwankaReiss/Diyakawa.git)
 
 <p>
-  <img src="img/Schematic_Diyakawa_electrical-wiring_system_2026-07-09.png" alt="Diyakawa system schematic from EasyEDA" width="820" />
+  <img src="img/Schematic_Diyakawa_electrical-wiring_system_2026-07-09.png" alt="Diyakawa system schematic from EasyEDA" height="320" />
 </p>
 
 ### Thermistor Validation Setup
 [Thermistor Validation Repository](https://github.com/ThiwankaReiss/Thermistor_Validation.git)
 
 <p>
-  <img src="img/WhatsApp Image 2026-07-10 at 15.24.30.jpeg" alt="Thermistor validation live test setup with laptop and sensor board" width="560" />
+  <img src="img/Img1.jpeg" alt="Thermistor validation live test setup with laptop and sensor board" height="320" />
 </p>
 
 ### Display UI
 [DisplayCode Repository](https://github.com/ThiwankaReiss/DisplayCode.git)
 
 <p>
-  <img src="img/HeavyReaact.png" alt="Telemetry display UI showing speed, voltage, current and temperatures" width="760" />
+  <img src="img/HeavyReaact.png" alt="Telemetry display UI showing speed, voltage, current and temperatures" height="320" />
 </p>
 
 ### Mechatronic Pick-and-Place Robot
 [Mechatronic Project Repository](https://github.com/ThiwankaReiss/mechatronic-project.git)
 
 <p>
-  <img src="img/full-project.jpeg" alt="Mechatronic pick-and-place robot platform" width="560" />
+  <img src="img/full-project.jpeg" alt="Mechatronic pick-and-place robot platform" height="320" />
+</p>
+
+### SolidWorks Mechanical Design
+[Mechatronic Project Repository](https://github.com/ThiwankaReiss/mechatronic-project.git)
+
+<p>
+  <img src="img/image.png" alt="SolidWorks linkage and suspension-style CAD assembly" height="320" />
 </p>
 
 ## Skills to Project Mapping
@@ -82,6 +89,9 @@ Engineering Undergraduate at the University of Moratuwa focused on embedded syst
 - Control Systems: [MATLAB Work](https://github.com/ThiwankaReiss/matlab-work.git)
 - Proteus: [Thermistor Validation](https://github.com/ThiwankaReiss/Thermistor_Validation.git)
 - EasyEDA: [Diyakawa](https://github.com/ThiwankaReiss/Diyakawa.git)
+
+### CAD and Mechanical Design
+- SolidWorks: [Mechatronic Project](https://github.com/ThiwankaReiss/mechatronic-project.git)
 
 ### Software Development
 - Spring Boot: [AR Project](https://github.com/ThiwankaReiss/AR-Project.git), [Fashion Shop Backend](https://github.com/ThiwankaReiss/fashionShopBackend.git)
