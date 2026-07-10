@@ -56,7 +56,7 @@ Engineering Undergraduate at the University of Moratuwa focused on embedded syst
 </p>
 
 ### SolidWorks Mechanical Design
-[Mechatronic Project Repository](https://github.com/ThiwankaReiss/mechatronic-project.git)
+[Mechatronic Project Repository](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git)
 
 <p>
   <img src="img/image.png" alt="SolidWorks linkage and suspension-style CAD assembly" height="320" />
@@ -91,7 +91,7 @@ Engineering Undergraduate at the University of Moratuwa focused on embedded syst
 - EasyEDA: [Diyakawa](https://github.com/ThiwankaReiss/Diyakawa.git)
 
 ### CAD and Mechanical Design
-- SolidWorks: [Mechatronic Project](https://github.com/ThiwankaReiss/mechatronic-project.git)
+- SolidWorks: [Mechatronic Project](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git)
 
 ### Software Development
 - Spring Boot: [AR Project](https://github.com/ThiwankaReiss/AR-Project.git), [Fashion Shop Backend](https://github.com/ThiwankaReiss/fashionShopBackend.git)
