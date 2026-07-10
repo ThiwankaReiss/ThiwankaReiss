@@ -1,6 +1,6 @@
 # Thiwanka Reiss
 
-Engineering Undergraduate at the University of Moratuwa focused on embedded systems, robotics, and software engineering.
+Engineering Undergraduate at the University of Moratuwa focused on Mechatronics based embedded systems, robotics, and software design.
 
 ## Contact
 - Email: thiwankar2003@gmail.com
@@ -48,6 +48,13 @@ Engineering Undergraduate at the University of Moratuwa focused on embedded syst
   <img src="img/HeavyReaact.png" alt="Telemetry display UI showing speed, voltage, current and temperatures" height="320" />
 </p>
 
+### AR App UI (Interactive 3D Product Visualization)
+[AR Frontend Repository](https://github.com/ThiwankaReiss/AR-frontend.git) | [AR Backend Repository](https://github.com/ThiwankaReiss/AR-Project.git)
+
+<p>
+  <img src="img/Screenshot 2026-07-10 163447.png" alt="Interactive 3D AR product visualization application UI" height="320" />
+</p>
+
 ### Mechatronic Pick-and-Place Robot
 [Mechatronic Project Repository](https://github.com/ThiwankaReiss/mechatronic-project.git)
 
@@ -91,7 +98,7 @@ Engineering Undergraduate at the University of Moratuwa focused on embedded syst
 - EasyEDA: [Diyakawa](https://github.com/ThiwankaReiss/Diyakawa.git)
 
 ### CAD and Mechanical Design
-- SolidWorks: [Mechatronic Project](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git)
+- SolidWorks: [Steering Design](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git)
 
 ### Software Development
 - Spring Boot: [AR Project](https://github.com/ThiwankaReiss/AR-Project.git), [Fashion Shop Backend](https://github.com/ThiwankaReiss/fashionShopBackend.git)
