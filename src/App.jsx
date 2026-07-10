@@ -7,7 +7,7 @@ const coreProjectsData = [
     title: 'Vision-Based Pick-and-Place Robotic System (Team Project)',
     summary:
       'Built an integrated mechatronic system combining 3-axis actuation, embedded control, and a web-based operation platform.',
-      image: '/full-project.jpeg',
+      image: '/ThiwankaReiss/full-project.jpeg',
     links: [
       {
         label: 'Code',
@@ -45,7 +45,7 @@ const coreProjectsData = [
       'Underwater Rover Power System Design and Electrical Integration (Team Diyakawa)',
     summary:
       'Contributed to rover power-domain architecture, energy analysis, and reliability-oriented electrical integration for underwater operation.',
-      image: '/Schematic_Diyakawa_electrical-wiring_system_2026-07-09.png',
+      image: '/ThiwankaReiss/Schematic_Diyakawa_electrical-wiring_system_2026-07-09.png',
     links: [
       {
         label: 'Code',
@@ -64,7 +64,7 @@ const coreProjectsData = [
       'Battery Thermal Characterization and Derating Analysis Using Thermistor-Based DAQ',
     summary:
       'Designed and executed thermistor-based testing to derive battery derating thresholds from measured thermal behavior.',
-    image: '/Img1.jpeg',
+    image: '/ThiwankaReiss/Img1.jpeg',
     links: [
       {
         label: 'Code',
@@ -82,7 +82,7 @@ const coreProjectsData = [
     title: 'Real-Time CAN-Based Electric Vehicle Display System',
     summary:
       'Implemented end-to-end CAN data decoding and embedded UI visualization, optimized for Raspberry Pi deployment.',
-    image: '/HeavyReaact.png',
+    image: '/ThiwankaReiss/HeavyReaact.png',
     links: [
       {
         label: 'Code',
@@ -100,7 +100,7 @@ const coreProjectsData = [
     title: 'Interactive 3D Product Visualization Web Application (Individual Project)',
     summary:
       'Created a full-stack 3D and AR-ready web platform using React, Three.js, and Spring Boot for interactive product workflows.',
-    image: '/Screenshot 2026-07-10 163447.png',
+    image: '/ThiwankaReiss/Screenshot 2026-07-10 163447.png',
     links: [
       {
         label: 'Frontend',
@@ -287,7 +287,7 @@ function App() {
           </div>
           <div className="hero-photo-wrap">
             <img
-              src="/WhatsApp Image 2026-07-10 at 15.24.30.jpeg"
+              src="/ThiwankaReiss/WhatsApp Image 2026-07-10 at 15.24.30.jpeg"
               alt="Thiwanka Reiss"
               className="hero-photo"
             />
