@@ -7,7 +7,7 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 
 ## About Me
 <p align="left">
-  <img src="img/WhatsApp Image 2026-07-10 at 15.24.30.jpeg" alt="Thiwanka Reiss Professional Photo" height="320" />
+  <img src="public/WhatsApp Image 2026-07-10 at 15.24.30.jpeg" alt="Thiwanka Reiss Professional Photo" height="320" />
 </p>
 
 ## Core Portfolio Projects
@@ -24,49 +24,49 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 [CAN Logger Repository](https://github.com/ThiwankaReiss/Can_logger.git)
 
 <p>
-  <img src="img/SmallCircuit2.jpeg" alt="CAN Logger ISP and SPI hardware prototype" height="320" />
+  <img src="public/SmallCircuit2.jpeg" alt="CAN Logger ISP and SPI hardware prototype" height="320" />
 </p>
 
 ### Diyakawa Electrical Schematic
 [Diyakawa Repository](https://github.com/ThiwankaReiss/Diyakawa.git)
 
 <p>
-  <img src="img/Schematic_Diyakawa_electrical-wiring_system_2026-07-09.png" alt="Diyakawa system schematic from EasyEDA" height="320" />
+  <img src="public/Schematic_Diyakawa_electrical-wiring_system_2026-07-09.png" alt="Diyakawa system schematic from EasyEDA" height="320" />
 </p>
 
 ### Thermistor Validation Setup
 [Thermistor Validation Repository](https://github.com/ThiwankaReiss/Thermistor_Validation.git)
 
 <p>
-  <img src="img/Img1.jpeg" alt="Thermistor validation live test setup with laptop and sensor board" height="320" />
+  <img src="public/Img1.jpeg" alt="Thermistor validation live test setup with laptop and sensor board" height="320" />
 </p>
 
 ### Display UI
 [DisplayCode Repository](https://github.com/ThiwankaReiss/DisplayCode.git)
 
 <p>
-  <img src="img/HeavyReaact.png" alt="Telemetry display UI showing speed, voltage, current and temperatures" height="320" />
+  <img src="public/HeavyReaact.png" alt="Telemetry display UI showing speed, voltage, current and temperatures" height="320" />
 </p>
 
 ### AR App UI (Interactive 3D Product Visualization)
 [AR Frontend Repository](https://github.com/ThiwankaReiss/AR-frontend.git) | [AR Backend Repository](https://github.com/ThiwankaReiss/AR-Project.git)
 
 <p>
-  <img src="img/Screenshot 2026-07-10 163447.png" alt="Interactive 3D AR product visualization application UI" height="320" />
+  <img src="public/Screenshot 2026-07-10 163447.png" alt="Interactive 3D AR product visualization application UI" height="320" />
 </p>
 
 ### Mechatronic Pick-and-Place Robot
 [Mechatronic Project Repository](https://github.com/ThiwankaReiss/mechatronic-project.git)
 
 <p>
-  <img src="img/full-project.jpeg" alt="Mechatronic pick-and-place robot platform" height="320" />
+  <img src="public/full-project.jpeg" alt="Mechatronic pick-and-place robot platform" height="320" />
 </p>
 
 ### SolidWorks Mechanical Design
 [Steering Design ](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git)
 
 <p>
-  <img src="img/image.png" alt="SolidWorks linkage and suspension-style CAD assembly" height="320" />
+  <img src="public/image.png" alt="SolidWorks linkage and suspension-style CAD assembly" height="320" />
 </p>
 
 ## Skills to Project Mapping
