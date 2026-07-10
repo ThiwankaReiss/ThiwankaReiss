@@ -11,12 +11,12 @@ Engineering Undergraduate at the University of Moratuwa focused on embedded syst
 </p>
 
 ## Core Portfolio Projects
-1. [CAN Logger (C++, Embedded, Automotive Communication)](https://github.com/ThiwankaReiss/Can_logger.git)
-2. [Python Hand Gesture (Computer Vision, Python)](https://github.com/ThiwankaReiss/python-hand-gesture.git)
-3. [Mechatronic Project (Embedded + Robotics Integration)](https://github.com/ThiwankaReiss/mechatronic-project.git)
-4. [Fashion Shop Backend (Java, Spring Boot)](https://github.com/ThiwankaReiss/fashionShopBackend.git)
-5. [AR Project Backend (Java, Spring Boot, MySQL)](https://github.com/ThiwankaReiss/AR-Project.git)
-6. [AR Frontend (JavaScript)](https://github.com/ThiwankaReiss/AR-frontend.git)
+1. [Vision-Based Pick-and-Place Robotic System (Team Project)](https://github.com/ThiwankaReiss/mechatronic-project.git)
+2. [Embedded CAN Bus Data Logger, CAN Gateway Filter, and Compact Logger Development (Team Falcon E Racing)](https://github.com/ThiwankaReiss/Can_logger.git)
+3. [Underwater Rover Power System Design and Electrical Integration (Team Diyakawa)](https://github.com/ThiwankaReiss/Diyakawa.git)
+4. [Battery Thermal Characterization and Derating Analysis Using Thermistor-Based Data Acquisition (Team Falcon E Racing)](https://github.com/ThiwankaReiss/Thermistor_Validation.git)
+5. [Real-Time CAN-Based Electric Vehicle Display System (Team Falcon E Racing)](https://github.com/ThiwankaReiss/DisplayCode.git)
+6. Interactive 3D Product Visualization Web Application (Individual Project): [Frontend](https://github.com/ThiwankaReiss/AR-frontend.git) | [Backend](https://github.com/ThiwankaReiss/AR-Project.git)
 
 ## Project Highlights (With Visual Evidence)
 
