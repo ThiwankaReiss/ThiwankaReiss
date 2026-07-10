@@ -56,7 +56,7 @@ Engineering Undergraduate at the University of Moratuwa focused on embedded syst
 </p>
 
 ### SolidWorks Mechanical Design
-[Mechatronic Project Repository](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git)
+[Steering of Design ](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git)
 
 <p>
   <img src="img/image.png" alt="SolidWorks linkage and suspension-style CAD assembly" height="320" />
