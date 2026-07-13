@@ -6,8 +6,8 @@ const coreProjectsData = [
     id: 'pick-and-place',
     title: 'Vision-Based Pick-and-Place Robotic System (Team Project)',
     summary:
-      'Built an integrated mechatronic system combining 3-axis actuation, embedded control, and a web-based operation platform.',
-      image: '/ThiwankaReiss/full-project.jpeg',
+      'Developed an end-to-end mechatronic pick-andplace system integrating mechanical design,embedded control, and web-based machine operation. The system featured a 3-axis robotic manipulator with NEMA stepper motor-driven linear axes, a 3D-printed Z-axis actuator, a servo gripper, and an Arduino Uno-based control system.',
+    image: '/ThiwankaReiss/full-project.jpeg',
     links: [
       {
         label: 'Code',
@@ -15,18 +15,26 @@ const coreProjectsData = [
       },
     ],
     details: [
-      'Developed an end-to-end mechatronic pick-and-place system integrating mechanical design, embedded control, and web-based machine operation. The system consisted of a 3-axis robotic manipulator with NEMA stepper motor-driven X/Y linear axes, a 3D-printed hobby linear actuator for Z-axis movement, a servo-based gripper, and a stepper motor-driven turntable designed using AutoCAD 3D. Arduino Uno was used for actuator coordination and communication with the control system.',
-      'My contributions focused on embedded and software integration of the system. I developed the Django-based backend for user management and machine control, implemented database storage using Django ORM, created PIN-based user authentication and registration workflows, integrated Notify.lk for SMS notifications, and developed the web-based control interface using React and Three.js for interactive 3D visualization.',
-      'I implemented the communication logic to translate user commands from the interface into ordered control instructions for the robotic system and used Ngrok during testing to enable remote machine access beyond the local network.',
+      'My Contributions:',
+      '- Developed and deployed the Django backend for machine control, user management, and database integration using Django ORM.',
+      '- Built a React and Three.js interface for interactive 3D visualization and remote robot operation.',
+      '- Implemented PIN-based authentication, Notify.lk SMS notifications, and communication logic between the web interface and Arduino Uno.',
+      '- Configured Ngrok for remote testing and machine access beyond the local network.',
+      '',
+
+      'Technologies:',
+      'Python | Django | React | Three.js | JavaScript | Arduino Uno | ',
+      'Raspberry Pi | AutoCAD 3D | Ngrok',
+
     ],
   },
   {
     id: 'can-logger',
     title:
-      'Embedded CAN Bus Data Logger, CAN Gateway Filter, and Compact Logger Development',
+      'Embedded CAN Bus Data Logger, CAN Gateway Filter, and Compact Logger Development — Team Falcon E Racing (Volunteer Project)',
     summary:
-      'Developed logger and gateway architectures for reliable CAN acquisition, filtering, and compact embedded deployment.',
-      image: '/ThiwankaReiss/SmallCircuit2.jpeg',
+      'Developed an embedded CAN communication system for vehicle data logging, network management, and diagnostics. The project evolved from an Arduino-based CAN logger into a CAN gateway filter capable of selectively transferring data between separate CAN networks while preventing excessive traffic and CAN bus flooding. The system was further optimized into a compact embedded logger to improve hardware integration and reduce size.',
+    image: '/ThiwankaReiss/SmallCircuit2.jpeg',
     links: [
       {
         label: 'Code',
@@ -34,18 +42,24 @@ const coreProjectsData = [
       },
     ],
     details: [
-      'Developed the first CAN logger using an Arduino, MCP2515 CAN controller module, and status indication LEDs for capturing and monitoring vehicle CAN data.',
-      'Enhanced the system into a CAN gateway filter that transferred selected data between separate CAN networks while isolating the networks to prevent excessive traffic and CAN bus flooding.',
-      'Designed and implemented a compact CAN logger as an Arduino ISP-based embedded system, reducing hardware size and improving system integration. Responsible for firmware development, CAN communication configuration, hardware integration, testing, and iterative improvement of the system architecture.',
+      'My Contributions:',
+      '- Developed the initial CAN logger using an Arduino and MCP2515 CAN controller for capturing and monitoring vehicle CAN data.',
+      '- Implemented a CAN gateway filter to selectively forward messages while isolating separate CAN networks.',
+      '- Designed and developed a compact Arduino ISP-based CAN logger for improved system integration.',
+      '- Performed firmware development, CAN communication configuration, hardware integration, testing, and iterative system improvements.',
+      '',
+      'Technologies:',
+      'Arduino | MCP2515 CAN Controller | CAN Bus | C++ | SPI Communication | Embedded Firmware | Arduino ISP | Hardware Integration',
+
     ],
   },
   {
     id: 'diyakawa',
     title:
-      'Underwater Rover Power System Design and Electrical Integration (Team Diyakawa)',
+      'Underwater Rover Power System Design and Electrical Integration — Team Diyakawa Project',
     summary:
-      'Contributed to rover power-domain architecture, energy analysis, and reliability-oriented electrical integration for underwater operation.',
-      image: '/ThiwankaReiss/Schematic_Diyakawa_electrical-wiring_system_2026-07-09.png',
+      'Contributed to the electrical integration and power system design of an underwater robotic rover developed for the SAUVC international competition. The project focused on designing a reliable power architecture for underwater propulsion and control systems, including energy management, battery sizing, motor power regulation, and integration of separate high-voltage and low-voltage power domains while addressing underwater operational challenges such as electrical protection and reliability.',
+    image: '/ThiwankaReiss/Schematic_Diyakawa_electrical-wiring_system_2026-07-09.png',
     links: [
       {
         label: 'Code',
@@ -53,17 +67,23 @@ const coreProjectsData = [
       },
     ],
     details: [
-      'Worked as part of the electrical integration team for an underwater robotic platform, focusing on power management, energy analysis, and subsystem reliability.',
-      'Contributed to battery capacity calculations, underwater operation time estimation, ESC and motor power regulation, and integration of separate high-voltage and low-voltage power domains for propulsion and control electronics.',
-      'Collaborated on electrical insulation and protection strategies to ensure reliable underwater operation while coordinating with mechanical and software teams responsible for vehicle design, control systems, and waterproofing. The team was selected to participate in the international SAUVC competition in China after completing the online submission stage.',
+      'My Contributions:',
+      'Performed battery capacity calculations and underwater mission runtime estimation for power system planning.',
+      'Assisted with ESC integration, motor power regulation, and propulsion system power management.',
+      'Contributed to high-voltage/low-voltage power distribution, electrical insulation, and protection strategies for reliable underwater operation.',
+      'Collaborated with mechanical and software teams on vehicle integration, waterproofing, and overall system reliability.',
+      'Supported the team\'s successful qualification for the SAUVC international competition after completing the online submission stage.',
+      '',
+      'Technologies:',
+      'Battery Systems | Power Management | ESC Integration | Motor Control | Electrical Protection | High Voltage/Low Voltage Systems | Underwater Robotics | Energy Analysis',
     ],
   },
   {
     id: 'thermistor',
     title:
-      'Battery Thermal Characterization and Derating Analysis Using Thermistor-Based DAQ',
+      'Battery Thermal Characterization and Derating Analysis Using Thermistor-Based Data Acquisition — Team Falcon E Racing (Volunteer Project)',
     summary:
-      'Designed and executed thermistor-based testing to derive battery derating thresholds from measured thermal behavior.',
+      'Developed an experimental battery thermal characterization system to analyze temperature behavior and determine temperature-based derating limits for improved battery protection. The project involved designing a thermistor-based data acquisition system, replicating battery thermal conditions using representative thermal interface materials, and evaluating temperature response under controlled testing conditions.',
     image: '/ThiwankaReiss/Img1.jpeg',
     links: [
       {
@@ -72,16 +92,21 @@ const coreProjectsData = [
       },
     ],
     details: [
-      'Developed an experimental setup to characterize battery thermal behavior and determine temperature-based derating limits using thermistor measurements.',
-      'Designed a data acquisition system using an Arduino Uno and two thermistors mounted on a metal test plate, with thermal interface materials applied to replicate battery thermal conditions. Conducted comparative thermal experiments using battery resin and thermal grease.',
-      'Collected temperature response data through controlled water bath testing, analyzed steady-state thermal behavior, and calculated maximum temperature offsets to determine appropriate battery derating thresholds for improved thermal management and battery protection.',
+      'My Contributions:',
+      'Designed an Arduino Uno-based data acquisition system using dual thermistors mounted on a metal test plate for temperature monitoring.',
+      'Conducted controlled water bath thermal experiments to compare temperature responses under different thermal interface conditions.',
+      'Analyzed steady-state thermal behavior and calculated temperature offsets to determine appropriate battery derating thresholds.',
+      'Applied experimental findings to develop a temperature-based derating strategy for improved battery thermal management and protection.',
+      '',
+      'Technologies:',
+      'Arduino Uno | Thermistors | Data Acquisition (DAQ) | Temperature Measurement | Thermal Characterization | Battery Thermal Management | Experimental Analysis',
     ],
   },
   {
     id: 'ev-display',
     title: 'Real-Time CAN-Based Electric Vehicle Display System',
     summary:
-      'Implemented end-to-end CAN data decoding and embedded UI visualization, optimized for Raspberry Pi deployment.',
+      'Designed and developed a real-time electric vehicle monitoring system by integrating CAN communication, embedded data acquisition, and Raspberry Pi-based visualization. The project involved creating a complete data pipeline where vehicle CAN frames were captured, transmitted to a Raspberry Pi, decoded, logged, and displayed as meaningful vehicle parameters through a user interface optimized for embedded deployment.',
     image: '/ThiwankaReiss/HeavyReaact.png',
     links: [
       {
@@ -90,16 +115,22 @@ const coreProjectsData = [
       },
     ],
     details: [
-      'Designed and developed a real-time electric vehicle monitoring interface by integrating CAN communication, embedded data acquisition, and Raspberry Pi-based visualization.',
-      'Developed the data pipeline where CAN frames were received through a CAN adapter, transferred as serial data to a Raspberry Pi, logged, decoded, and displayed as meaningful vehicle parameters on a user interface.',
-      'Initially developed an Electron-React-based display application and later redesigned it using a lightweight PyQt framework after identifying startup delays and performance limitations on Raspberry Pi hardware.',
+      'My Contributions:',
+      'Developed the CAN data pipeline for receiving, transferring, decoding, and visualizing vehicle data.',
+      'Implemented CAN frame decoding and conversion of raw communication data into meaningful vehicle parameters.',
+      'Developed an initial Electron + React dashboard for real-time vehicle monitoring.',
+      'Redesigned the interface using PyQt to overcome Raspberry Pi performance limitations, improving startup time and resource efficiency.',
+      'Responsible for software architecture, interface development, embedded optimization, and system integration.',
+      '',
+      'Technologies:',
+      'CAN Bus | Raspberry Pi | CAN Adapter | PyQt | Electron | React | Python | Serial Communication | Data Logging',
     ],
   },
   {
     id: 'ar-app',
     title: 'Interactive 3D Product Visualization Web Application (Individual Project)',
     summary:
-      'Created a full-stack 3D and AR-ready web platform using React, Three.js, and Spring Boot for interactive product workflows.',
+      'Developed a full-stack interactive 3D product visualization and e-commerce platform integrating web development, 3D rendering, and augmented reality (AR) capabilities. The project involved building a complete system for managing products, visualizing customizable 3D models, and enabling browser-based AR experiences through mobile devices.',
     image: '/ThiwankaReiss/Screenshot 2026-07-10 163447.png',
     links: [
       {
@@ -112,9 +143,62 @@ const coreProjectsData = [
       },
     ],
     details: [
-      'Developed a full-stack web application for interactive furniture visualization and e-commerce using React, Three.js, and Spring Boot.',
-      'Implemented a RESTful backend with Spring Boot, Spring Data JPA, MySQL, and role-based user management to support product administration, order processing, and dynamic 3D model management.',
-      'Developed an interactive frontend using React Three Fiber and Three.js for real-time 3D product visualization, customization, and browser-based AR viewing on supported mobile devices. Integrated orientation sensing for correct model alignment and implemented responsive browsing, cart, checkout, and order tracking flows.',
+      'My Contributions:',
+      'Developed a Spring Boot RESTful backend with Spring Data JPA and MySQL for product management, order processing, and dynamic 3D model handling.',
+      'Implemented role-based user management and backend services to support administrative and customer workflows.',
+      'Built an interactive React + Three.js / React Three Fiber frontend for real-time 3D product visualization and customization.',
+      'Integrated browser-based AR functionality with device orientation sensing to maintain correct model alignment during mobile interaction.',
+      'Developed responsive interfaces for product browsing, shopping cart management, checkout, and order tracking.',
+      '',
+      'Technologies:',
+      'React | React Three Fiber | Three.js | Spring Boot | Spring Data JPA | MySQL | Java | JavaScript | REST API | Augmented Reality (AR) | Responsive Web Design',
+    ],
+  },
+  {
+    id: 'reverse-engineering',
+    title: 'Reverse Engineering and Manufacturing Analysis of an Angle Grinder (Team Project)',
+    summary:
+      'Performed a reverse engineering study of an industrial angle grinder to analyze component design, material selection, manufacturing processes, and functional requirements. The project involved disassembling and studying the product architecture, performing dimensional measurements, reconstructing components using CAD modeling, and analyzing manufacturing methods.',
+    image: '/ThiwankaReiss/Rev.png',
+    links: [
+      {
+        label: 'Report',
+        url: 'https://drive.google.com/file/d/1arP_sE9exZlJfTHWic5AIkzzLw2KXuJA/view?usp=sharing',
+      },
+    ],
+    details: [
+      'My Contributions:',
+      'Conducted dimensional measurements and CAD reconstruction of the ceramic grinding disk component.',
+      'Analyzed the silicon carbide abrasive composite material, including material composition and functional requirements.',
+      'Studied the complete manufacturing process, including raw material preparation, molding, pressing, curing, and finishing operations.',
+      'Performed manufacturing process analysis and developed a conceptual die design based on the reconstructed geometry.',
+      'Evaluated the relationship between component design, material properties, and manufacturing constraints.',
+      '',
+      'Technologies:',
+      'SolidWorks / CAD Reconstruction | Dimensional Measurement | Manufacturing Analysis | Material Analysis | Process Planning | Reverse Engineering',
+    ],
+  },
+  {
+    id: 'manufacturing',
+    title: 'Design and Fabrication of a Multi-Functional Wine Bottle Holder (Team Manufacturing Project)',
+    summary:
+      'Designed and fabricated a wood and metal wine storage system integrating woodworking, welding, and sheet metal fabrication techniques. The project focused on transforming a CAD design into a functional physical product through practical workshop manufacturing processes.',
+    image: '/ThiwankaReiss/Manu.png',
+    links: [
+      {
+        label: 'Code',
+        url: 'Report: https://drive.google.com/file/d/1r0e9p-WVWGki36qNT8AiQWhm_Mol5EL9/view?usp=sharing',
+      },
+    ],
+    details: [
+      'My Contributions:',
+      'Designed the wooden components using AutoCAD before fabrication.',
+      'Performed the majority of the woodworking processes, including material preparation, cutting, shaping, and assembly.',
+      'Assisted with integration of wooden and metal components through fabrication and fitting processes.',
+      'Applied a design-to-manufacturing workflow, considering material properties, fabrication limitations, and assembly requirements.',
+      '',
+      'Technologies:',
+      'AutoCAD | Woodworking | Welding | Sheet Metal Fabrication | Workshop Manufacturing | Mechanical Assembly',
     ],
   },
 ]
@@ -196,6 +280,22 @@ const skillGroups = [
   },
 ]
 
+const certificates = [
+  {
+    name: 'ROS 2 for Beginners Level 2: TF, URDF, RViz & Gazebo - Udemy (Jan 2026)',
+    url: 'https://drive.google.com/file/d/161bNMYHMf7OJ-Hs1wjNDS28CjG2k2KSz/view?usp=sharing',
+  },
+  {
+    name: 'ROS 2 Navigation Stack (Nav2): SLAM & Navigation - Udemy (Jan 2026)',
+    url: 'https://drive.google.com/file/d/1BjOA-h722-HiVBN5y7iSRF_x93_u46_j/view?usp=sharing',
+  },
+]
+
+const organisations = [
+  'Diyakawa Underwater Rover Team - Electrical Integration Team Member',
+  'Team Falcon E Racing - Volunteer, Driverless Subsystem (CAN Logger and EV Display Development)',
+]
+
 function getRouteProjectId() {
   const hash = window.location.hash || '#/'
   if (!hash.startsWith('#/project/')) {
@@ -206,11 +306,24 @@ function getRouteProjectId() {
 
 function App() {
   const [routeProjectId, setRouteProjectId] = useState(getRouteProjectId())
+  const [lightboxImage, setLightboxImage] = useState(null)
+  const [isSectionNavOpen, setIsSectionNavOpen] = useState(false)
 
   useEffect(() => {
     const onHashChange = () => setRouteProjectId(getRouteProjectId())
     window.addEventListener('hashchange', onHashChange)
     return () => window.removeEventListener('hashchange', onHashChange)
+  }, [])
+
+  useEffect(() => {
+    const onKeyDown = (event) => {
+      if (event.key === 'Escape') {
+        setLightboxImage(null)
+      }
+    }
+
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
   }, [])
 
   const coreProjects = useMemo(() => coreProjectsData, [])
@@ -220,46 +333,135 @@ function App() {
     [coreProjects, routeProjectId],
   )
 
+  const openLightbox = (src, alt) => {
+    if (!src) {
+      return
+    }
+    setLightboxImage({ src, alt })
+  }
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId)
+    if (!section) {
+      return
+    }
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    setIsSectionNavOpen(false)
+  }
+
+  const lightbox = lightboxImage ? (
+    <div className="image-lightbox" onClick={() => setLightboxImage(null)} role="presentation">
+      <button
+        type="button"
+        className="lightbox-close"
+        onClick={() => setLightboxImage(null)}
+        aria-label="Close image preview"
+      >
+        x
+      </button>
+      <img
+        src={lightboxImage.src}
+        alt={lightboxImage.alt}
+        className="lightbox-image"
+        onClick={(event) => event.stopPropagation()}
+      />
+    </div>
+  ) : null
+
   if (selectedProject) {
     return (
-      <div className="page-bg">
-        <main className="portfolio detail-page">
-          <a href="#/" className="back-link">
-            Back to Projects
-          </a>
-          <h1>{selectedProject.title}</h1>
-          <img
-            src={selectedProject.image}
-            alt={selectedProject.title}
-            className="detail-hero-image"
-          />
-          <p className="detail-summary">{selectedProject.summary}</p>
-          <div className="project-actions">
-            {selectedProject.links.map((link) => (
-              <a
-                href={link.url}
-                target="_blank"
-                rel="noreferrer"
-                key={`${selectedProject.id}-${link.label}`}
-                className="action-link"
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
-          <section className="detail-content">
-            {selectedProject.details.map((paragraph) => (
-              <p key={`${selectedProject.id}-${paragraph.slice(0, 20)}`}>{paragraph}</p>
-            ))}
-          </section>
-        </main>
-      </div>
+      <>
+        <div className="page-bg">
+          <main className="portfolio detail-page">
+            <a href="#/" className="back-link">
+              Back to Projects
+            </a>
+            <h1>{selectedProject.title}</h1>
+            {selectedProject.image ? (
+              <img
+                src={selectedProject.image}
+                alt={selectedProject.title}
+                className="detail-hero-image clickable-image"
+                onClick={() => openLightbox(selectedProject.image, selectedProject.title)}
+              />
+            ) : (
+              <div className="project-image-placeholder" />
+            )}
+            <p className="detail-summary">{selectedProject.summary}</p>
+            <div className="project-actions">
+              {selectedProject.links
+                .filter((link) => link.url)
+                .map((link) => (
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    key={`${selectedProject.id}-${link.label}`}
+                    className="action-link"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+            </div>
+            <section className="detail-content">
+              {selectedProject.details.map((paragraph, index) => {
+                if (!paragraph) {
+                  return <div key={`${selectedProject.id}-spacer-${index}`} style={{ height: '0.75rem' }} />
+                }
+
+                if (paragraph === 'My Contributions:' || paragraph === 'Technologies:') {
+                  return (
+                    <p key={`${selectedProject.id}-${index}`}>
+                      <strong>{paragraph}</strong>
+                    </p>
+                  )
+                }
+
+                return <p key={`${selectedProject.id}-${index}`}>{paragraph}</p>
+              })}
+            </section>
+          </main>
+        </div>
+        {lightbox}
+      </>
     )
   }
 
   return (
-    <div className="page-bg">
-      <main className="portfolio">
+    <>
+      <div className="page-bg">
+        <main className="portfolio">
+          <div className="section-nav-shell">
+            <button
+              type="button"
+              className="section-nav-toggle"
+              aria-label="Toggle section navigation"
+              aria-expanded={isSectionNavOpen}
+              onClick={() => setIsSectionNavOpen((value) => !value)}
+            >
+              <span />
+              <span />
+              <span />
+            </button>
+            <nav
+              className={`section-nav${isSectionNavOpen ? ' open' : ''}`}
+              aria-label="Page sections"
+            >
+              <button type="button" onClick={() => scrollToSection('projects-section')}>
+                Projects
+              </button>
+              <button type="button" onClick={() => scrollToSection('skills-section')}>
+                Skills
+              </button>
+              <button type="button" onClick={() => scrollToSection('certificates-section')}>
+                Certificates
+              </button>
+              <button type="button" onClick={() => scrollToSection('organisations-section')}>
+                Organisations
+              </button>
+            </nav>
+          </div>
+
         <section className="hero-section">
           <div className="hero-text">
             <p className="kicker">Engineering Portfolio</p>
@@ -294,7 +496,7 @@ function App() {
           </div>
         </section>
 
-        <section className="section-block">
+          <section className="section-block" id="projects-section">
           <div className="section-head">
             <h2>Core Engineering Projects</h2>
             <p>
@@ -307,24 +509,35 @@ function App() {
             {coreProjects.map((project) => (
               <article className="project-card" key={project.title}>
                 <div className="project-media">
-                  <img src={project.image} alt={project.title} />
+                  {project.image ? (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="clickable-image"
+                      onClick={() => openLightbox(project.image, project.title)}
+                    />
+                  ) : (
+                    <div className="project-image-placeholder" />
+                  )}
                 </div>
 
                 <div className="project-content">
                   <h3>{project.title}</h3>
                   <p>{project.summary}</p>
                   <div className="project-actions">
-                    {project.links.map((link) => (
-                      <a
-                        href={link.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        key={`${project.title}-${link.label}`}
-                        className="action-link"
-                      >
-                        {link.label}
-                      </a>
-                    ))}
+                    {project.links
+                      .filter((link) => link.url)
+                      .map((link) => (
+                        <a
+                          href={link.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          key={`${project.title}-${link.label}`}
+                          className="action-link"
+                        >
+                          {link.label}
+                        </a>
+                      ))}
                     <a href={`#/project/${project.id}`} className="action-link details-link">
                       Details
                     </a>
@@ -333,15 +546,15 @@ function App() {
               </article>
             ))}
           </div>
-        </section>
+          </section>
 
-        <section className="section-block skills-block">
+          <section className="section-block skills-block" id="skills-section">
           <div className="section-head">
             <h2>Skills</h2>
             <p>
-              Click skill to see related project examples. 
+              Click skill to see related project examples.
             </p>
-          </div>
+          roll bar and more feature </div>
 
           {/* <div className="skills-flow" aria-label="Skill to project flow chart">
             {skillFlow.map((skill, index) => (
@@ -374,9 +587,41 @@ function App() {
               </section>
             ))}
           </div>
-        </section>
-      </main>
-    </div>
+          </section>
+
+          <section className="section-block" id="certificates-section">
+            <div className="section-head">
+              <h2>CERTIFICATES</h2>
+            </div>
+            <div className="info-list">
+              {certificates.map((certificate) => (
+                <a
+                  key={certificate.name}
+                  href={certificate.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="info-link"
+                >
+                  {certificate.name}
+                </a>
+              ))}
+            </div>
+          </section>
+
+          <section className="section-block" id="organisations-section">
+            <div className="section-head">
+              <h2>ORGANISATIONS</h2>
+            </div>
+            <ul className="info-list org-list">
+              {organisations.map((organisation) => (
+                <li key={organisation}>{organisation}</li>
+              ))}
+            </ul>
+          </section>
+        </main>
+      </div>
+      {lightbox}
+    </>
   )
 }
 
