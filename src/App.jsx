@@ -307,12 +307,16 @@ function getRouteProjectId() {
 function App() {
   const [routeProjectId, setRouteProjectId] = useState(getRouteProjectId())
   const [lightboxImage, setLightboxImage] = useState(null)
-  const [isSectionNavOpen, setIsSectionNavOpen] = useState(false)
+  const [isSectionNavOpen, setIsSectionNavOpen] = useState(true)
 
   useEffect(() => {
     const onHashChange = () => setRouteProjectId(getRouteProjectId())
     window.addEventListener('hashchange', onHashChange)
     return () => window.removeEventListener('hashchange', onHashChange)
+  }, [])
+
+  useEffect(() => {
+    setIsSectionNavOpen(true)
   }, [])
 
   useEffect(() => {
@@ -431,11 +435,11 @@ function App() {
     <>
       <div className="page-bg">
         <main className="portfolio">
-          <div className="section-nav-shell">
+          <nav className={`section-nav${isSectionNavOpen ? ' open' : ''}`} aria-label="Page sections">
             <button
               type="button"
               className="section-nav-toggle"
-              aria-label="Toggle section navigation"
+              aria-label="Toggle navigation"
               aria-expanded={isSectionNavOpen}
               onClick={() => setIsSectionNavOpen((value) => !value)}
             >
@@ -443,10 +447,7 @@ function App() {
               <span />
               <span />
             </button>
-            <nav
-              className={`section-nav${isSectionNavOpen ? ' open' : ''}`}
-              aria-label="Page sections"
-            >
+            <div className={`section-nav-menu${isSectionNavOpen ? ' open' : ''}`}>
               <button type="button" onClick={() => scrollToSection('projects-section')}>
                 Projects
               </button>
@@ -459,8 +460,8 @@ function App() {
               <button type="button" onClick={() => scrollToSection('organisations-section')}>
                 Organisations
               </button>
-            </nav>
-          </div>
+            </div>
+          </nav>
 
         <section className="hero-section">
           <div className="hero-text">
@@ -554,7 +555,7 @@ function App() {
             <p>
               Click skill to see related project examples.
             </p>
-          roll bar and more feature </div>
+          </div>
 
           {/* <div className="skills-flow" aria-label="Skill to project flow chart">
             {skillFlow.map((skill, index) => (

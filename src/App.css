@@ -17,52 +17,58 @@
   backdrop-filter: blur(8px);
 }
 
-.section-nav-shell {
-  position: fixed;
-  right: 1rem;
-  top: 1rem;
-  z-index: 30;
-}
-
-.section-nav-toggle {
-  width: 44px;
-  height: 44px;
-  border: 1px solid rgba(228, 240, 255, 0.32);
-  border-radius: 10px;
-  background: rgba(6, 27, 49, 0.9);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 5px;
-  padding: 0 10px;
-  cursor: pointer;
-}
-
-.section-nav-toggle span {
-  display: block;
-  height: 2px;
-  background: #ecf5ff;
-  border-radius: 999px;
-}
-
 .section-nav {
-  margin-top: 0.5rem;
-  display: none;
-  flex-direction: column;
-  gap: 0.5rem;
+  position: sticky;
+  top: 0.55rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.95rem;
+  padding: 0;
+  background: transparent;
+}
+
+.section-nav.open {
   padding: 0.55rem;
   border-radius: 12px;
   background: rgba(6, 27, 49, 0.85);
   backdrop-filter: blur(6px);
 }
 
-.section-nav.open {
+.section-nav-toggle {
+  width: 42px;
+  height: 38px;
+  border: 1px solid rgba(228, 240, 255, 0.32);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  padding: 0 10px;
+}
+
+.section-nav-toggle span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 999px;
+  background: #ecf5ff;
+}
+
+.section-nav-menu {
+  display: none;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.section-nav-menu.open {
   display: flex;
 }
 
 .section-nav button {
-  width: 150px;
-  text-align: left;
   border: 1px solid rgba(228, 240, 255, 0.32);
   color: #ecf5ff;
   background: rgba(255, 255, 255, 0.1);
@@ -75,6 +81,15 @@
 
 .section-nav button:hover {
   background: rgba(255, 255, 255, 0.2);
+}
+
+.section-nav .section-nav-toggle {
+  border: 1px solid rgba(228, 240, 255, 0.32);
+  background: rgba(6, 27, 49, 0.9);
+}
+
+.section-nav .section-nav-toggle:hover {
+  background: rgba(10, 35, 62, 0.95);
 }
 
 .hero-section {
@@ -474,12 +489,7 @@
     height: 190px;
   }
 
-  .section-nav-shell {
-    right: 0.4rem;
-  }
-
   .section-nav button {
-    width: 124px;
     font-size: 0.78rem;
     padding: 0.28rem 0.62rem;
   }
