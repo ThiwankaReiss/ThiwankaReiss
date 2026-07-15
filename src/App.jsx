@@ -130,7 +130,7 @@ const coreProjectsData = [
     id: 'ar-app',
     title: 'Interactive 3D Product Visualization Web Application (Individual Project)',
     summary:
-      'Developed a full-stack interactive 3D product visualization and e-commerce platform integrating web development, 3D rendering, and augmented reality (AR) capabilities. The project involved building a complete system for managing products, visualizing customizable 3D models, and enabling browser-based AR experiences through mobile devices.',
+      'Developed a full-stack interactive 3D product visualization and e-commerce platform integrating web development, 3D rendering, and 3D website capabilities. The project involved building a complete system for managing products, visualizing customizable 3D models, and enabling browser-based 3D website experiences through mobile devices.',
     image: '/ThiwankaReiss/Screenshot 2026-07-10 163447.png',
     links: [
       {
@@ -147,11 +147,11 @@ const coreProjectsData = [
       'Developed a Spring Boot RESTful backend with Spring Data JPA and MySQL for product management, order processing, and dynamic 3D model handling.',
       'Implemented role-based user management and backend services to support administrative and customer workflows.',
       'Built an interactive React + Three.js / React Three Fiber frontend for real-time 3D product visualization and customization.',
-      'Integrated browser-based AR functionality with device orientation sensing to maintain correct model alignment during mobile interaction.',
+      'Integrated browser-based 3D website functionality with device orientation sensing to maintain correct model alignment during mobile interaction.',
       'Developed responsive interfaces for product browsing, shopping cart management, checkout, and order tracking.',
       '',
       'Technologies:',
-      'React | React Three Fiber | Three.js | Spring Boot | Spring Data JPA | MySQL | Java | JavaScript | REST API | Augmented Reality (AR) | Responsive Web Design',
+      'React | React Three Fiber | Three.js | Spring Boot | Spring Data JPA | MySQL | Java | JavaScript | REST API | 3D Website | Responsive Web Design',
     ],
   },
   {

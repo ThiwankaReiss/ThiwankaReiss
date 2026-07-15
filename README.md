@@ -48,11 +48,11 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
   <img src="public/HeavyReaact.png" alt="Telemetry display UI showing speed, voltage, current and temperatures" height="320" />
 </p>
 
-### AR App UI (Interactive 3D Product Visualization)
-[AR Frontend Repository](https://github.com/ThiwankaReiss/AR-frontend.git) | [AR Backend Repository](https://github.com/ThiwankaReiss/AR-Project.git)
+### 3D Website App UI (Interactive 3D Product Visualization)
+[3D Website Frontend Repository](https://github.com/ThiwankaReiss/AR-frontend.git) | [3D Website Backend Repository](https://github.com/ThiwankaReiss/AR-Project.git)
 
 <p>
-  <img src="public/Screenshot 2026-07-10 163447.png" alt="Interactive 3D AR product visualization application UI" height="320" />
+  <img src="public/Screenshot 2026-07-10 163447.png" alt="Interactive 3D website product visualization application UI" height="320" />
 </p>
 
 ### Mechatronic Pick-and-Place Robot
@@ -74,8 +74,8 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 ### Programming Languages
 - C++: [CAN Logger](https://github.com/ThiwankaReiss/Can_logger.git)
 - Python: [Python Hand Gesture](https://github.com/ThiwankaReiss/python-hand-gesture.git), [Mechatronic Project](https://github.com/ThiwankaReiss/mechatronic-project.git)
-- Java: [Fashion Shop Backend](https://github.com/ThiwankaReiss/fashionShopBackend.git), [AR Project](https://github.com/ThiwankaReiss/AR-Project.git)
-- JavaScript: [AR Frontend](https://github.com/ThiwankaReiss/AR-frontend.git), [Weather App Electron](https://github.com/ThiwankaReiss/weather-app-electron.git), [Class Final](https://github.com/ThiwankaReiss/classfinal.git)
+- Java: [Fashion Shop Backend](https://github.com/ThiwankaReiss/fashionShopBackend.git), [3D Website Project](https://github.com/ThiwankaReiss/AR-Project.git)
+- JavaScript: [3D Website Frontend](https://github.com/ThiwankaReiss/AR-frontend.git), [Weather App Electron](https://github.com/ThiwankaReiss/weather-app-electron.git), [Class Final](https://github.com/ThiwankaReiss/classfinal.git)
 - MATLAB: [MATLAB Work](https://github.com/ThiwankaReiss/matlab-work.git)
 
 ### Embedded Systems
@@ -101,11 +101,11 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 - SolidWorks: [Steering Design](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git)
 
 ### Software Development
-- Spring Boot: [AR Project](https://github.com/ThiwankaReiss/AR-Project.git), [Fashion Shop Backend](https://github.com/ThiwankaReiss/fashionShopBackend.git)
+- Spring Boot: [3D Website Project](https://github.com/ThiwankaReiss/AR-Project.git), [Fashion Shop Backend](https://github.com/ThiwankaReiss/fashionShopBackend.git)
 - React: [Fashion Shop Frontend](https://github.com/ThiwankaReiss/fashionShopFrontend.git)
 - Three.js: [Fashion Shop Frontend](https://github.com/ThiwankaReiss/fashionShopFrontend.git)
 - Git: [Fashion Shop Frontend](https://github.com/ThiwankaReiss/fashionShopFrontend.git), [Portfolio Profile](https://github.com/ThiwankaReiss)
-- MySQL: [AR Project](https://github.com/ThiwankaReiss/AR-Project.git)
+- MySQL: [3D Website Project](https://github.com/ThiwankaReiss/AR-Project.git)
 
 ### Computer Vision
 - [Python Hand Gesture](https://github.com/ThiwankaReiss/python-hand-gesture.git)
