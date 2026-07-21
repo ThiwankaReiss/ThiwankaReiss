@@ -17,6 +17,7 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 4. [Battery Thermal Characterization and Derating Analysis Using Thermistor-Based Data Acquisition (Team Falcon E Racing)](https://github.com/ThiwankaReiss/Thermistor_Validation.git)
 5. [Real-Time CAN-Based Electric Vehicle Display System (Team Falcon E Racing)](https://github.com/ThiwankaReiss/DisplayCode.git)
 6. Interactive 3D Product Visualization Web Application (Individual Project): [Frontend](https://github.com/ThiwankaReiss/AR-frontend.git) | [Backend](https://github.com/ThiwankaReiss/AR-Project.git)
+7. [Autonomous Formula Student Perception & Navigation (Team Falcon E Racing – Ongoing Volunteer Project)](https://github.com/ThiwankaReiss/ros-udemy-course.git)
 
 ## Project Highlights (With Visual Evidence)
 

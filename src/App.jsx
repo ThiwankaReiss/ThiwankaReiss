@@ -201,6 +201,25 @@ const coreProjectsData = [
       'AutoCAD | Woodworking | Welding | Sheet Metal Fabrication | Workshop Manufacturing | Mechanical Assembly',
     ],
   },
+  {
+    id: 'autonomous-fs',
+    title:
+      'Autonomous Formula Student Perception & Navigation (Team Falcon E Racing – Ongoing Volunteer Project)',
+    summary:
+      'Developing a proof-of-concept autonomous driving system for a Formula Student Driverless race car using ROS 2. Unlike autonomous road vehicles, the car navigates a closed race track where the driving path is determined by the placement of colored cones. The project focuses on transitioning autonomous software from simulation to real-world deployment through sensor integration and hardware validation.',
+    image: '/ThiwankaReiss/8Snwm.jpg',
+    links: [],
+    details: [
+      'Current Responsibilities:',
+      '- Integrate ROS 2 with an NVIDIA Jetson Nano, RPLiDAR, and Intel RealSense depth camera for real-world autonomous operation.',
+      '- Configure and test ROS 2 packages, sensor drivers, TF transformations, RViz visualization, and hardware interfaces.',
+      '- Perform sensor integration, system debugging, and hardware testing to support perception and navigation.',
+      '- Apply concepts from ROS 2, Gazebo, RViz, TF2, URDF, and the Nav2 navigation stack during system development and deployment.',
+      '',
+      'Technologies:',
+      'ROS 2 | NVIDIA Jetson Nano | RPLiDAR | Intel RealSense Depth Camera | EUFS | Gazebo | RViz | TF2 | URDF | Nav2 | Ubuntu Linux | Git',
+    ],
+  },
 ]
 
 const skillFlowData = [
