@@ -207,7 +207,7 @@ const coreProjectsData = [
       'Autonomous Formula Student Perception & Navigation (Team Falcon E Racing – Ongoing Volunteer Project)',
     summary:
       'Developing a proof-of-concept autonomous driving system for a Formula Student Driverless race car using ROS 2. Unlike autonomous road vehicles, the car navigates a closed race track where the driving path is determined by the placement of colored cones. The project focuses on transitioning autonomous software from simulation to real-world deployment through sensor integration and hardware validation.',
-    image: '/ThiwankaReiss/8Snwm.jpg',
+    image: '/ThiwankaReiss/8Snwm.png',
     links: [],
     details: [
       'Current Responsibilities:',

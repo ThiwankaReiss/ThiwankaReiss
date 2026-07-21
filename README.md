@@ -70,6 +70,13 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
   <img src="public/image.png" alt="SolidWorks linkage and suspension-style CAD assembly" height="320" />
 </p>
 
+### Autonomous Formula Student Perception & Navigation
+[Autonomous FS Repository](https://github.com/ThiwankaReiss/ros-udemy-course.git)
+
+<p>
+  <img src="public/8Snwm.png" alt="Autonomous Formula Student perception and navigation system" height="320" />
+</p>
+
 ## Skills to Project Mapping
 
 ### Programming Languages
