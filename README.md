@@ -18,6 +18,7 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 5. [Real-Time CAN-Based Electric Vehicle Display System (Team Falcon E Racing)](https://github.com/ThiwankaReiss/DisplayCode.git)
 6. Interactive 3D Product Visualization Web Application (Individual Project): [Frontend](https://github.com/ThiwankaReiss/AR-frontend.git) | [Backend](https://github.com/ThiwankaReiss/AR-Project.git)
 7. [Autonomous Formula Student Perception & Navigation (Team Falcon E Racing – Ongoing Volunteer Project)](https://github.com/ThiwankaReiss/ros-udemy-course.git)
+8. [Ackermann Steering Mechanism Design and Analysis (Individual Project)](https://drive.google.com/file/d/1-vaPqo2j_4mZAi7OoHvz-Fq_rf_HLqHO/view?usp=sharing)
 
 ## Project Highlights (With Visual Evidence)
 
@@ -75,6 +76,13 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 
 <p>
   <img src="public/8Snwm.png" alt="Autonomous Formula Student perception and navigation system" height="320" />
+</p>
+
+### Ackermann Steering Mechanism Design and Analysis
+[Report](https://drive.google.com/file/d/1-vaPqo2j_4mZAi7OoHvz-Fq_rf_HLqHO/view?usp=sharing)
+
+<p>
+  <img src="public/image.png" alt="Ackermann steering mechanism CAD and simulation" height="320" />
 </p>
 
 ## Skills to Project Mapping

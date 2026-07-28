@@ -191,7 +191,8 @@
   padding: 0.85rem;
 }
 
-.project-media img {
+.project-media img,
+.project-media video {
   width: 100%;
   height: 200px;
   object-fit: cover;
@@ -485,7 +486,8 @@
     height: 240px;
   }
 
-  .project-media img {
+  .project-media img,
+  .project-media video {
     height: 190px;
   }
 

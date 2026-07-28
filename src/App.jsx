@@ -179,6 +179,30 @@ const coreProjectsData = [
     ],
   },
   {
+    id: 'ackermann-steering',
+    title: 'Ackermann Steering Mechanism Design and Analysis (Individual Project)',
+    summary:
+      'Designed and validated an Ackermann steering mechanism for a small-scale vehicle through computational analysis, CAD modelling, and simulation to optimize steering geometry and minimize Ackermann error.',
+    image: null,
+    video: '/ThiwankaReiss/Assem1.mp4',
+    links: [
+      {
+        label: 'Report',
+        url: 'https://drive.google.com/file/d/1-vaPqo2j_4mZAi7OoHvz-Fq_rf_HLqHO/view?usp=sharing',
+      },
+    ],
+    details: [
+      'My Contributions:',
+      '- Developed a Python-based design tool to calculate and evaluate Ackermann steering error for different steering linkage dimensions, enabling rapid optimization of the mechanism geometry.',
+      '- Created a complete 3D CAD model of the steering assembly in SolidWorks based on the optimized design parameters.',
+      '- Performed motion simulation in SolidWorks to analyze steering behavior and validate the relationship between steering input angle and individual wheel steering angles.',
+      '- Iteratively refined the steering linkage dimensions using analytical calculations and simulation results to improve steering performance and geometric accuracy.',
+      '',
+      'Technologies:',
+      'Python | SolidWorks | CAD Modelling | Motion Simulation | Ackermann Steering | Computational Analysis',
+    ],
+  },
+  {
     id: 'manufacturing',
     title: 'Design and Fabrication of a Multi-Functional Wine Bottle Holder (Team Manufacturing Project)',
     summary:
@@ -400,7 +424,17 @@ function App() {
               Back to Projects
             </a>
             <h1>{selectedProject.title}</h1>
-            {selectedProject.image ? (
+            {selectedProject.video ? (
+              <video
+                src={selectedProject.video}
+                className="detail-hero-image"
+                autoPlay
+                loop
+                muted
+                playsInline
+                controls
+              />
+            ) : selectedProject.image ? (
               <img
                 src={selectedProject.image}
                 alt={selectedProject.title}
@@ -529,7 +563,16 @@ function App() {
             {coreProjects.map((project) => (
               <article className="project-card" key={project.title}>
                 <div className="project-media">
-                  {project.image ? (
+                  {project.video ? (
+                    <video
+                      src={project.video}
+                      className="project-video"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                    />
+                  ) : project.image ? (
                     <img
                       src={project.image}
                       alt={project.title}
