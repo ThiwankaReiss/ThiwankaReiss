@@ -64,11 +64,11 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
   <img src="public/full-project.jpeg" alt="Mechatronic pick-and-place robot platform" height="320" />
 </p>
 
-### SolidWorks Mechanical Design
-[Steering Design ](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git)
+### Ackermann Steering Mechanism Design and Analysis
+[Steering Design Repository](https://github.com/ThiwankaReiss/Steering_mini_car_falcone.git) | [Report](https://drive.google.com/file/d/1-vaPqo2j_4mZAi7OoHvz-Fq_rf_HLqHO/view?usp=sharing)
 
 <p>
-  <img src="public/image.png" alt="SolidWorks linkage and suspension-style CAD assembly" height="320" />
+  <img src="public/image.png" alt="Ackermann steering mechanism CAD and SolidWorks design" height="320" />
 </p>
 
 ### Autonomous Formula Student Perception & Navigation
@@ -76,13 +76,6 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 
 <p>
   <img src="public/8Snwm.png" alt="Autonomous Formula Student perception and navigation system" height="320" />
-</p>
-
-### Ackermann Steering Mechanism Design and Analysis
-[Report](https://drive.google.com/file/d/1-vaPqo2j_4mZAi7OoHvz-Fq_rf_HLqHO/view?usp=sharing)
-
-<p>
-  <img src="public/image.png" alt="Ackermann steering mechanism CAD and simulation" height="320" />
 </p>
 
 ## Skills to Project Mapping
