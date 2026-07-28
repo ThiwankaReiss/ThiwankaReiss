@@ -4,6 +4,7 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 
 ## Contact
 - Email: thiwankar2003@gmail.com
+- Website: [thiwankareiss.github.io/ThiwankaReiss](https://thiwankareiss.github.io/ThiwankaReiss/)
 
 ## About Me
 <p align="left">
@@ -19,6 +20,16 @@ Engineering Undergraduate at the University of Moratuwa focused on Mechatronics 
 6. Interactive 3D Product Visualization Web Application (Individual Project): [Frontend](https://github.com/ThiwankaReiss/AR-frontend.git) | [Backend](https://github.com/ThiwankaReiss/AR-Project.git)
 7. [Autonomous Formula Student Perception & Navigation (Team Falcon E Racing – Ongoing Volunteer Project)](https://github.com/ThiwankaReiss/ros-udemy-course.git)
 8. [Ackermann Steering Mechanism Design and Analysis (Individual Project)](https://drive.google.com/file/d/1-vaPqo2j_4mZAi7OoHvz-Fq_rf_HLqHO/view?usp=sharing)
+
+## Certifications
+
+[ROS 2 for Beginners Level 2: TF, URDF, RViz & Gazebo – Udemy (Jan 2026)](https://drive.google.com/file/d/161bNMYHMf7OJ-Hs1wjNDS28CjG2k2KSz/view?usp=drive_link)
+
+[ROS 2 Navigation Stack (Nav2): SLAM & Navigation – Udemy (Jan 2026)](https://drive.google.com/file/d/1BjOA-h722-HiVBN5y7iSRF_x93_u46_j/view?usp=drive_link)
+
+[MATLAB Onramp Course](https://drive.google.com/file/d/1BGujr8zQeaNfzP13GO15TAFi7kJymh5b/view?usp=sharing)
+
+[Simulink Onramp Course](https://drive.google.com/file/d/1rczp8iYpVc7knX5mvl4gr-dQWB8bWZy_/view?usp=sharing)
 
 ## Project Highlights (With Visual Evidence)
 

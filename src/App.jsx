@@ -332,6 +332,14 @@ const certificates = [
     name: 'ROS 2 Navigation Stack (Nav2): SLAM & Navigation - Udemy (Jan 2026)',
     url: 'https://drive.google.com/file/d/1BjOA-h722-HiVBN5y7iSRF_x93_u46_j/view?usp=sharing',
   },
+  {
+    name: 'MATLAB Onramp Course',
+    url: 'https://drive.google.com/file/d/1BGujr8zQeaNfzP13GO15TAFi7kJymh5b/view?usp=sharing',
+  },
+  {
+    name: 'Simulink Onramp Course',
+    url: 'https://drive.google.com/file/d/1rczp8iYpVc7knX5mvl4gr-dQWB8bWZy_/view?usp=sharing',
+  },
 ]
 
 const organisations = [
